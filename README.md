@@ -75,6 +75,8 @@ The `HelpPage` provides:
 - Instructions on how to play the game.
 - Tips for answering questions.
 - Contact information for support.
+  
+![image](https://github.com/user-attachments/assets/05be2192-4398-4ef1-beab-d852f1a083df)
 
 ## Getting Started
 
@@ -93,7 +95,7 @@ The `HelpPage` provides:
 
 2. **Navigate to Project Directory**
 
-   - cd your-repository
+   - cd Quiz-Game-Projet
 
 3. **Install Dependencies**
    - flutter pub get
@@ -124,5 +126,3 @@ The app fetches quiz questions from the Open Trivia Database API:
 
 ```dart
 final url = Uri.parse('https://opentdb.com/api.php?amount=6&category=18&difficulty=easy&type=multiple');
-
-# Contribution
