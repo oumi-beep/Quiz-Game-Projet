@@ -35,6 +35,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   path_provider: ^2.0.14 
   shared_preferences: ^2.0.0
+  share_plus: ^8.0.0
   image_picker: ^0.8.4  # Make sure the version matches the latest available
 
 dev_dependencies:
