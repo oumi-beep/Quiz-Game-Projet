@@ -64,9 +64,21 @@
 - **`http`**: For making network requests.
 - **`dart:convert`**: For decoding JSON responses.
 
-![image](https://github.com/user-attachments/assets/2ac4ee86-c6e5-455b-a388-3a24f95cb25b)
+![image](https://github.com/user-attachments/assets/eb6b879c-c709-4864-b73e-04c38527b77c)
+
 ![image](https://github.com/user-attachments/assets/f64b3365-1a24-4205-9bee-56e6e054c6ec)
+
 ![image](https://github.com/user-attachments/assets/e57ec1b9-c8dc-4e4e-afee-eac5757473b9)
+
+![image](https://github.com/user-attachments/assets/42c477f3-4665-4d46-804f-2e2785a9eaf0)
+
+![image](https://github.com/user-attachments/assets/6e30b2c7-81c4-465e-8105-ea488d51bf4d)
+
+![image](https://github.com/user-attachments/assets/48cdc529-982a-4487-9dbc-0d50dfb92bc2)
+
+![image](https://github.com/user-attachments/assets/42fada20-c5dd-40c0-bccc-f604981250f1)
+
+
 
 
 ### API Integration
