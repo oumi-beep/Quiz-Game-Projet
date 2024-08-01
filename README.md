@@ -72,11 +72,6 @@ The app fetches quiz questions from the Open Trivia Database API:
 final url = Uri.parse('https://opentdb.com/api.php?amount=6&category=18&difficulty=easy&type=multiple');
 
 # Contribution
+![image](https://github.com/user-attachments/assets/2ac4ee86-c6e5-455b-a388-3a24f95cb25b)
+![image](https://github.com/user-attachments/assets/f64b3365-1a24-4205-9bee-56e6e054c6ec)
 
-If you would like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a feature branch.
-3. Make your changes.
-4. Submit a pull request.
- 
