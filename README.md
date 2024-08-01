@@ -23,3 +23,15 @@
 
    ```bash
    git clone https://github.com/your-username/your-repository.git
+
+2. **Navigate to Project Directory**
+
+   - cd your-repository
+
+3. **Install Dependencies**
+   - flutter pub get
+
+4. **Run the Application**
+   -flutter run
+
+ 
