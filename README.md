@@ -78,6 +78,33 @@ The `HelpPage` provides:
   
 ![image](https://github.com/user-attachments/assets/05be2192-4398-4ef1-beab-d852f1a083df)
 
+## Running the App on an Emulator
+
+To run the app on an Android emulator, follow these steps:
+
+### **1. Set Up an Android Emulator**
+
+1. **Open Android Studio:**
+   - Go to **Tools** > **AVD Manager**.
+
+2. **Create a New Emulator:**
+   - Click on **Create Virtual Device**.
+   - Select a device model and system image.
+   - Configure the emulator settings and click **Finish**.
+
+3. **Check Available Emulators:**
+   - To list all available emulators, run:
+     ```bash
+     flutter emulators
+     ```
+
+### **2. Launch an Emulator**
+
+To start an emulator, use the following command with the emulator ID you want to use:
+
+```bash
+flutter emulators --launch <emulator_id>
+
 ## Getting Started
 
 ### Prerequisites
