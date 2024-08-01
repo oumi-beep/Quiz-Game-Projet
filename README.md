@@ -64,6 +64,11 @@
 - **`http`**: For making network requests.
 - **`dart:convert`**: For decoding JSON responses.
 
+![image](https://github.com/user-attachments/assets/2ac4ee86-c6e5-455b-a388-3a24f95cb25b)
+![image](https://github.com/user-attachments/assets/f64b3365-1a24-4205-9bee-56e6e054c6ec)
+![image](https://github.com/user-attachments/assets/e57ec1b9-c8dc-4e4e-afee-eac5757473b9)
+
+
 ### API Integration
 
 The app fetches quiz questions from the Open Trivia Database API:
@@ -72,8 +77,3 @@ The app fetches quiz questions from the Open Trivia Database API:
 final url = Uri.parse('https://opentdb.com/api.php?amount=6&category=18&difficulty=easy&type=multiple');
 
 # Contribution
-
-![image](https://github.com/user-attachments/assets/2ac4ee86-c6e5-455b-a388-3a24f95cb25b)
-![image](https://github.com/user-attachments/assets/f64b3365-1a24-4205-9bee-56e6e054c6ec)
-![image](https://github.com/user-attachments/assets/e57ec1b9-c8dc-4e4e-afee-eac5757473b9)
-
