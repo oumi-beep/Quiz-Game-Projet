@@ -1,13 +1,73 @@
 # MindMelter Quiz Game
 
 **MindMelter** is an engaging quiz game built with Flutter. It features a user-friendly interface, allows for high score tracking, and includes settings for customizing the experience.
+MindMelter is an interactive quiz app designed to challenge your knowledge with multiple-choice questions. The app features various functionalities like user profile management, high score tracking, and customizable settings.
 
 ## Features
 
-- **Play Mode**: Users can play a quiz game with multiple-choice questions.
-- **Profile Management**: Users can manage their profile, including updating their profile picture and name.
-- **Settings**: Options for dark mode and sound settings.
-- **High Score Tracking**: Tracks and displays the highest score achieved.
+- **Home Screen**: Displays a welcome message and provides navigation to the `PlayPage` and `SettingsPage`.
+- **Settings Page**: Allows users to toggle dark mode, sound settings, change password, sign out, report problems, and delete their account.
+- **Profile Page**: Users can view and edit their profile, upload a profile picture, and see their high score.
+- **Play Page**: Users can start the quiz, answer questions, and view their score.
+
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/42fada20-c5dd-40c0-bccc-f604981250f1)
+
+
+## Screens
+
+### 1. Home Screen
+
+The `HomeScreen` displays a welcome message and provides buttons to navigate to the `PlayPage` and `SettingsPage`.
+
+![image](https://github.com/user-attachments/assets/eb6b879c-c709-4864-b73e-04c38527b77c)
+
+### 2. Settings Page
+
+The `SettingsPage` allows users to:
+- Toggle Dark Mode.
+- Enable/Disable Sound.
+- Change Password.
+- Sign Out.
+- Report Problems.
+- Delete Account.
+  
+![image](https://github.com/user-attachments/assets/e57ec1b9-c8dc-4e4e-afee-eac5757473b9)
+
+### 3. Profile Page
+
+The `ProfilePage` includes:
+- Profile picture (click to update).
+- Profile name (editable).
+- Display of high score.
+  
+![image](https://github.com/user-attachments/assets/f64b3365-1a24-4205-9bee-56e6e054c6ec)
+
+### 4. Play Page
+
+The `PlayPage` displays:
+- The current question and options.
+  
+![image](https://github.com/user-attachments/assets/42c477f3-4665-4d46-804f-2e2785a9eaf0)
+
+![image](https://github.com/user-attachments/assets/6e30b2c7-81c4-465e-8105-ea488d51bf4d)
+
+- A score counter.
+- A result dialog after finishing the quiz.
+
+![image](https://github.com/user-attachments/assets/48cdc529-982a-4487-9dbc-0d50dfb92bc2)
+
+### 5. Help Page (New)
+
+The `HelpPage` provides:
+- Instructions on how to play the game.
+- Tips for answering questions.
+- Contact information for support.
 
 ## Getting Started
 
@@ -63,21 +123,6 @@
 - **`shared_preferences`**: For storing user preferences and high scores.
 - **`http`**: For making network requests.
 - **`dart:convert`**: For decoding JSON responses.
-
-![image](https://github.com/user-attachments/assets/eb6b879c-c709-4864-b73e-04c38527b77c)
-
-![image](https://github.com/user-attachments/assets/f64b3365-1a24-4205-9bee-56e6e054c6ec)
-
-![image](https://github.com/user-attachments/assets/e57ec1b9-c8dc-4e4e-afee-eac5757473b9)
-
-![image](https://github.com/user-attachments/assets/42c477f3-4665-4d46-804f-2e2785a9eaf0)
-
-![image](https://github.com/user-attachments/assets/6e30b2c7-81c4-465e-8105-ea488d51bf4d)
-
-![image](https://github.com/user-attachments/assets/48cdc529-982a-4487-9dbc-0d50dfb92bc2)
-
-![image](https://github.com/user-attachments/assets/42fada20-c5dd-40c0-bccc-f604981250f1)
-
 
 
 
