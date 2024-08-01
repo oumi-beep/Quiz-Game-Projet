@@ -3,20 +3,27 @@
 **MindMelter** is an engaging quiz game built with Flutter. It features a user-friendly interface, allows for high score tracking, and includes settings for customizing the experience.
 MindMelter is an interactive quiz app designed to challenge your knowledge with multiple-choice questions. The app features various functionalities like user profile management, high score tracking, and customizable settings.
 
+### Widgets
+
+- **`MyApp`**: The root widget that sets up the theme and home page.
+- **`MyWidget`**: The landing page with navigation to play the game or access settings.
+- **`SettingsPage`**: Allows users to toggle dark mode and sound settings, and manage account settings.
+- **`Profil`**: Allows users to update their profile name and picture, and view their high score.
+- **`PlayPage`**: Handles the quiz gameplay, question fetching, and score tracking.
+- **`QuestionWidget`**: Displays the current question.
+- **`OptionCard`**: Represents an answer option for the current question.
+- **`ResultBox`**: Displays the result after completing the quiz.
+
+### Models
+
+- **`Question`**: Defines the structure for quiz questions and their options.
+
 ## Features
 
 - **Home Screen**: Displays a welcome message and provides navigation to the `PlayPage` and `SettingsPage`.
 - **Settings Page**: Allows users to toggle dark mode, sound settings, change password, sign out, report problems, and delete their account.
 - **Profile Page**: Users can view and edit their profile, upload a profile picture, and see their high score.
 - **Play Page**: Users can start the quiz, answer questions, and view their score.
-
-
-
-
-
-
-
-![image](https://github.com/user-attachments/assets/42fada20-c5dd-40c0-bccc-f604981250f1)
 
 
 ## Screens
@@ -99,21 +106,6 @@ The `HelpPage` provides:
 ### Main Entry Point
 
 - **`main.dart`**: Contains the `MyApp` widget, the main entry point of the application.
-
-### Widgets
-
-- **`MyApp`**: The root widget that sets up the theme and home page.
-- **`MyWidget`**: The landing page with navigation to play the game or access settings.
-- **`SettingsPage`**: Allows users to toggle dark mode and sound settings, and manage account settings.
-- **`Profil`**: Allows users to update their profile name and picture, and view their high score.
-- **`PlayPage`**: Handles the quiz gameplay, question fetching, and score tracking.
-- **`QuestionWidget`**: Displays the current question.
-- **`OptionCard`**: Represents an answer option for the current question.
-- **`ResultBox`**: Displays the result after completing the quiz.
-
-### Models
-
-- **`Question`**: Defines the structure for quiz questions and their options.
 
 ### Dependencies
 
