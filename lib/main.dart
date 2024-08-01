@@ -4,6 +4,7 @@ import 'dart:ui' as ui show Canvas, Paint, Path, lerpDouble;
 import 'package:image_picker/image_picker.dart';
 import 'package:my_projetct_quiz_game/question_model.dart';
 import 'dart:io';
+import 'package:share_plus/share_plus.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 // Use Flutter framework equivalent imports
@@ -65,9 +66,14 @@ class MyWidget extends StatelessWidget {
             icon: const Icon(Icons.account_circle, size: 45),
           ),
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              final String shareContent = "Check out my quiz game!";
+              Share.share(shareContent);
+            },
             icon: const Icon(Icons.share, size: 40),
           ),
+        
+      
         ],
       ),
       body: Center(
