@@ -1,16 +1,25 @@
-# my_projetct_quiz_game
+# MindMelter Quiz Game
 
-A new Flutter project.
+**MindMelter** is an engaging quiz game built with Flutter. It features a user-friendly interface, allows for high score tracking, and includes settings for customizing the experience.
+
+## Features
+
+- **Play Mode**: Users can play a quiz game with multiple-choice questions.
+- **Profile Management**: Users can manage their profile, including updating their profile picture and name.
+- **Settings**: Options for dark mode and sound settings.
+- **High Score Tracking**: Tracks and displays the highest score achieved.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK
+- Dart SDK
+- An IDE such as Android Studio, IntelliJ IDEA, or VSCode
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Setup
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
